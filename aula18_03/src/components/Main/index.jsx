@@ -10,8 +10,9 @@ function Main() {
                 {
                     bandas.map((banda, index)=> (
                         <section>
-                            <Link key={banda.id} to={`band/${banda.id}`}>
                             <Band key={index}  {...banda} />
+                            <Link key={banda.id} to={`band/${banda.id}`}>
+                            <p>Clique aqui para ler mais sobre...</p>
                             </Link>
                         </section>
                     ))

@@ -10,7 +10,15 @@
     object-fit: cover;
     margin-right: var(--margin-padrao);
 }
+.band p{
+    margin-top: 1rem;
+}
 
-.band-info {
+.band button{
+    font-size: 1.3rem;
+}
+
+.bandinfo {
     flex: 1;
+    text-align: justify;
 }
