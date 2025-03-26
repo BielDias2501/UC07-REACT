@@ -1,0 +1,11 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    transform: translate(-50%, -50%); /* Centraliza verticalmente */
+}
+
+.container label{
+    font-size: 1.1rem;
+    font-weight: bold;  
+}
